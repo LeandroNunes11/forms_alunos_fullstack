@@ -55,6 +55,16 @@ footer {
     margin-bottom: 5rem;
 }
 
+.div_curso {
+	background-color: #306c74;
+	text-align: center;
+	padding: 15px 0;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5rem;
+}
+
 
 
 label {

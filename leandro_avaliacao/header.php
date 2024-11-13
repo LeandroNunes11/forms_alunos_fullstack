@@ -18,7 +18,7 @@
                     <a href="form_aluno.php">Alunos</a>
                 </li>
                 <li>
-                    <a href="#cursos">Cursos</a>
+                    <a href="form_curso.php">Cursos</a>
                 </li>
                 <li>
                     <a href="#avaliacoes">Avaliações</a>
