@@ -1,0 +1,117 @@
+header {
+    color: red;
+    background-color: #333;
+    padding: 5px 0;
+    text-align: center;
+    width: 100%;
+}
+
+header nav {
+    margin: 0 auto;
+    width: 80%;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+}
+
+.div_aluno {
+    background-color: #306c74;
+    text-align: center;
+    padding: 15px 0;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+}
+
+
+
+label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #f5efef;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 60%;
+    padding: 5px;
+    font-size: 16px;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3 ease, box-shadow 0.3s ease;
+}
+
+table{
+    width: 70%;
+    border-collapse: collapse;
+    padding-top: 15px, 0;
+    margin: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+th, td{
+    padding: 8px;
+    text-align: left;
+}
+
+th{
+    background-color: #f2f2f2;
+}
+
+.table-container{
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
